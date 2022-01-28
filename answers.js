@@ -125,6 +125,13 @@ const cutString = (str) => {
 */
 
 /* WRITE YOUR ANSWER HERE */
+const giveMeRandom = (n) => {
+    let randomNumArr = []
+    for(let i=0; i < n; i++) {
+        randomNumArr.push(Math.floor(Math.random() * 10)+1)
+    }
+    return randomNumArr
+}
 
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
