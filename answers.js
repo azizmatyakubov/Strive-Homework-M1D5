@@ -101,6 +101,14 @@ const reverseString = (str) => {
 */
 
 /* WRITE YOUR ANSWER HERE */
+const upperFirst = (str) => {
+    let arr = str.split(' ')
+    for(let i=0; i<arr.length; i++) {
+        arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1)
+    }
+
+    return arr.join('')
+}
 
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
