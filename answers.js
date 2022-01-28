@@ -32,6 +32,9 @@ const crazySum = (num1, num2) => {
 */
 
 /* WRITE YOUR ANSWER HERE */
+const crazyDiff = (n) => {
+    return n <= 19 ? 19 - n : (n - 19) * 3
+}
 
 
 /* EXERCISE 4
