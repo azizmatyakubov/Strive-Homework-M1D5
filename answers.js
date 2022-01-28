@@ -22,7 +22,9 @@ const area = (l1, l2) => {
 */
 
 /* WRITE YOUR ANSWER HERE */
-
+const crazySum = (num1, num2) => {
+    return num1 !== num2 ? num1 + num2 : num1 * num2
+}
 
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
