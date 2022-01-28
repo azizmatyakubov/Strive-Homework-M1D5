@@ -39,6 +39,53 @@ const checkArray = (arr) => {
 */
 
 /* WRITE YOUR ANSWER HERE */
+let shoppingCart = [
+    {
+        id: '#001',
+        name: 'product1',
+        price: 500,
+        quantity: 243.
+    },
+    {
+        id: '#002',
+        name: 'product2',
+        price: 100,
+        quantity: 58.
+    },
+    {
+        id: '#003',
+        name: 'product3',
+        price: 700,
+        quantity: 23.
+    },
+    {
+        id: '#004',
+        name: 'product4',
+        price: 1200,
+        quantity: 8.
+    },
+    {
+        id: '#005',
+        name: 'product5',
+        price: 900,
+        quantity: 76.
+    },
+    {
+        id: '#006',
+        name: 'product6',
+        price: 30,
+        quantity: 300.
+    }
+]
+
+const shoppingCartTotal = (obj) => {
+    let result = 0;
+    for (let i = 0; i < shoppingCart.length; i++) {
+        result += shoppingCart[i].price * shoppingCart[i].quantity;
+    }
+    return result;
+}
+
 
 /* EXTRA 3
  In your eCommerce you have an array of objects called shoppingCart. Each one of these objects has a price, a name, an id and the quantity to be shipped.
