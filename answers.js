@@ -42,6 +42,13 @@ const crazyDiff = (n) => {
 */
 
 /* WRITE YOUR ANSWER HERE */
+const boundary = (n) => {
+    if (n > 20 && n <= 100 || n === 400 ) {
+        return true 
+    } else {
+        return false
+    }
+}
 
 /* EXERCISE 5
  Write a function called "strivify" which accepts a string as a parameter.
