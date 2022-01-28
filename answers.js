@@ -115,6 +115,10 @@ const upperFirst = (str) => {
 */
 
 /* WRITE YOUR ANSWER HERE */
+const cutString = (str) => {
+    return str.slice(1, str.length-1)
+}
+
 
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
