@@ -81,14 +81,20 @@ const check3and7 = (num) => {
     return `${num} is neither a multiple of 3, nor of 7`; 
 }
 
-console.log(check3and7(21))
-
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
 
 /* WRITE YOUR ANSWER HERE */
+const reverseString = (str) => {
+    let result = []
+    for(let i= str.length-1; i >= 0; i--) {
+        result.push(str[i])
+    }
+    return result.join('')
+}
+
 
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
