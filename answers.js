@@ -22,9 +22,6 @@ const area = (l1, l2) => {
 */
 
 /* WRITE YOUR ANSWER HERE */
-const crazySum = (num1, num2) => {
-    return num1 !== num2 ? num1 + num2 : num1 * num2
-}
 
 
 /* EXERCISE 3
@@ -33,6 +30,7 @@ const crazySum = (num1, num2) => {
 */
 
 /* WRITE YOUR ANSWER HERE */
+
 
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
