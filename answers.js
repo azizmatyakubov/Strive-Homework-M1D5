@@ -67,6 +67,22 @@ const strivify = (a) => {
 */
 
 /* WRITE YOUR ANSWER HERE */
+const check3and7 = (num) => {
+
+    if (num < 0) {
+        return "Only positive numbers accepted. Change your input"
+    } else if (num % 3 === 0 && num % 7 === 0) {
+        return `${num} is a multiple of both 3 and 7`;
+    } else if (num % 3 === 0) {
+        return `${num} is a multiple of 3`;
+    } else if (num % 7 === 0) {
+        return `${num} is a multiple of 7`;
+    }
+    return `${num} is neither a multiple of 3, nor of 7`; 
+}
+
+console.log(check3and7(21))
+
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
