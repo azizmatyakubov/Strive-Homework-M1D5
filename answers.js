@@ -36,7 +36,7 @@ const crazyDiff = (n) => {
     return n <= 19 ? 19 - n : (n - 19) * 3
 }
 
-
+    
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
 */
@@ -68,7 +68,6 @@ const strivify = (a) => {
 
 /* WRITE YOUR ANSWER HERE */
 const check3and7 = (num) => {
-
     if (num < 0) {
         return "Only positive numbers accepted. Change your input"
     } else if (num % 3 === 0 && num % 7 === 0) {
